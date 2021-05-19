@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+}
+
+#header,
+#nav-bar ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+
+#header {
+    justify-content: space-between;
+}
+
+#email {
+    border-radius: 4px;
+    padding: 5px 10px;
+    width: 300px;
+}
+
+#submit {
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background-color: grey;
+    }
+}
